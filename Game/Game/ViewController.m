@@ -17,6 +17,9 @@
 
 @implementation ViewController
 
+// реализовано 10 структур -  5 комнат, 3 тупика, 1 выиграш, 1 проиграш + переходы между комнатами
+// комбинация выиграша - думаю не стоит писать, может хоть малый интерес будет)))
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -56,14 +59,14 @@
         
     }
     
-    [self fromFileToString:@"1"];
+    [self fromFileToString:@"1"]; // дефолтная комната
     
 }
 
 - (UITextView*) createTextView {
     
     UITextView *textView = [[UITextView alloc] init];
-textView.frame = CGRectMake(10, 20, self.view.frame.size.width - 20, 270);
+    textView.frame = CGRectMake(10, 20, self.view.frame.size.width - 20, 270);
     textView.backgroundColor = [UIColor orangeColor];
     textView.textColor = [UIColor whiteColor];
     textView.font = [UIFont systemFontOfSize:35];
@@ -103,8 +106,6 @@ textView.frame = CGRectMake(10, 20, self.view.frame.size.width - 20, 270);
     
     upButton.backgroundColor = [UIColor lightGrayColor];
 
-    
-    
 }
 
 - (void) actionDownButtonTouchUpInside:(UIButton*) downButton  {
@@ -146,11 +147,9 @@ textView.frame = CGRectMake(10, 20, self.view.frame.size.width - 20, 270);
     
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
