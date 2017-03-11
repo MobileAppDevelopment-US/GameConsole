@@ -129,16 +129,7 @@
 				7224F33B1E715E1E007792EE /* Assets.xcassets */,
 				7224F33D1E715E1E007792EE /* LaunchScreen.storyboard */,
 				7224F3401E715E1E007792EE /* Info.plist */,
-				7224F3761E717E57007792EE /* 6.txt */,
-				7224F3681E71794E007792EE /* 5.txt */,
-				7224F3781E71A960007792EE /* 4.txt */,
-				7224F36A1E71794E007792EE /* 3.txt */,
-				7224F36B1E71794E007792EE /* 2.txt */,
-				7224F3661E716874007792EE /* 1.txt */,
-				7224F37C1E71CDA9007792EE /* 7.txt */,
-				7224F37A1E71CD22007792EE /* 2.1.txt */,
-				7224F3721E717D49007792EE /* 3.1.txt */,
-				7224F3741E717D79007792EE /* 5.1.txt */,
+				72B5180F1E74671400F59218 /* XML */,
 				7224F32F1E715E1E007792EE /* Supporting Files */,
 			);
 			path = Game;
@@ -168,6 +159,23 @@
 				7224F3561E715E1F007792EE /* Info.plist */,
 			);
 			path = GameUITests;
+			sourceTree = "<group>";
+		};
+		72B5180F1E74671400F59218 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				7224F3661E716874007792EE /* 1.txt */,
+				7224F36B1E71794E007792EE /* 2.txt */,
+				7224F36A1E71794E007792EE /* 3.txt */,
+				7224F3781E71A960007792EE /* 4.txt */,
+				7224F3681E71794E007792EE /* 5.txt */,
+				7224F3761E717E57007792EE /* 6.txt */,
+				7224F37A1E71CD22007792EE /* 2.1.txt */,
+				7224F3721E717D49007792EE /* 3.1.txt */,
+				7224F3741E717D79007792EE /* 5.1.txt */,
+				7224F37C1E71CDA9007792EE /* 7.txt */,
+			);
+			name = XML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
