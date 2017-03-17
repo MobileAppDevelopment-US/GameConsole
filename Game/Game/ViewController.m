@@ -69,7 +69,7 @@
     textView.frame = CGRectMake(10, 20, self.view.frame.size.width - 20, 270);
     textView.backgroundColor = [UIColor orangeColor];
     textView.textColor = [UIColor whiteColor];
-    textView.font = [UIFont systemFontOfSize:35];
+    textView.font = [UIFont systemFontOfSize:30];
     textView.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:textView];
     textView.layer.borderWidth = 3;
@@ -88,7 +88,7 @@
     button.layer.borderColor = [[UIColor blackColor] CGColor];
     [button setTitleColor:[UIColor brownColor] forState:UIControlStateNormal];
     button.backgroundColor = [UIColor colorWithRed:215.0/255 green:211.0/255 blue:213.0/255 alpha:1];
-    button.titleLabel.font = [UIFont systemFontOfSize:40];
+    button.titleLabel.font = [UIFont systemFontOfSize:30];
 
     return button;
 }
